@@ -24,7 +24,7 @@ function calculate(){
     }
 
 
-    const result = principal + Math.pow((1 + rate / 1), 1 + years)
+    const result = principal * Math.pow((1 + rate / 1), 1 + years)
 
     totalAmount.textContent = result.toLocaleString(undefined, 
                                                     {style: "currency", 
